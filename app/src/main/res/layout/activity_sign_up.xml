@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:context=".SignUp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create your Account"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+
+        android:layout_marginTop="20dp"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etFn"
+        android:layout_marginTop="20dp"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Full Name"
+        android:layout_width="250dp"
+        android:hint="First Name"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etln"
+        android:layout_marginTop="20dp"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Full Name"
+        android:layout_width="250dp"
+        android:hint="Last Name"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etUsername"
+        android:layout_marginTop="20dp"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Email"
+        android:layout_width="250dp"
+        android:hint="Username"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etEmail"
+        android:layout_marginTop="20dp"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Email"
+        android:layout_width="250dp"
+        android:hint="Email"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etPass"
+        android:layout_marginTop="20dp"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Password"
+        android:layout_width="250dp"
+        android:hint="Password"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etConfPass"
+        android:layout_marginTop="20dp"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Confirm Password"
+        android:layout_width="250dp"
+        android:hint="Confirm Password"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#5ca08e"
+        android:onClick="registerRoute"
+        android:text="Sign UP" />
+
+    <TextView
+        android:id="@+id/already"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Already have an Account?"
+        android:textSize="10dp" />
+
+</LinearLayout>

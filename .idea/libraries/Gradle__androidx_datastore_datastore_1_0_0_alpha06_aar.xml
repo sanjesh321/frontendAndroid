@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.datastore:datastore:1.0.0-alpha06@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3936a3e84f813991d43d670ddae5c371/jetified-datastore-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd5ea2d33f6e3e607b7930d9a600f73c/jetified-datastore-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/089f6819b6b595385082f7e65ed9ac90/jetified-datastore-1.0.0-alpha06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3936a3e84f813991d43d670ddae5c371/jetified-datastore-1.0.0-alpha06/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3936a3e84f813991d43d670ddae5c371/jetified-datastore-1.0.0-alpha06/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.datastore/datastore/1.0.0-alpha06/7ebd4b543f7aa4ca7c65819ea03ccbc914ba7d1d/datastore-1.0.0-alpha06-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

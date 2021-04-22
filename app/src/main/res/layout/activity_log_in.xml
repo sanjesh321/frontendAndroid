@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:context=".LogInAct"
+    android:orientation="vertical">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etUid"
+        android:layout_marginTop="300dp"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Email/Username"
+        android:layout_width="250dp"
+        android:hint="Email/Username"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etPass"
+        android:inputType="textPassword"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Password"
+        android:layout_width="250dp"
+        android:hint="Password"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <CheckBox
+            android:id="@+id/cbRemember"
+            android:layout_width="19dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:text="Remember me?"
+            android:layout_width="100dp"
+            android:layout_height="20dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF3933"
+        android:onClick="login"
+        android:text="Login" />
+    <TextView
+
+        android:onClick="registerRoute"
+        android:textColor="#1E90FF"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have an account? "/>
+
+</LinearLayout>

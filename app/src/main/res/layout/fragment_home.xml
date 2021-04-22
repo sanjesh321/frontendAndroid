@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="226dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:hint="Search here" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="30dp"
+        android:text="All Categories"
+        android:textSize="25dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/homeCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Offers"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/saleGridView"
+        android:layout_width="423dp"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+

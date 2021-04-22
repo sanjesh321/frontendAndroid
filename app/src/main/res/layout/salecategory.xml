@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:id="@+id/ivSale"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        tools:srcCompat="@tools:sample/avatars" />
+    <TextView
+        android:id="@+id/tvSale"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Sale"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+</androidx.cardview.widget.CardView>
